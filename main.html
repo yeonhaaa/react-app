@@ -1,0 +1,18 @@
+<body>
+    <!-- <script type='module'
+    src='main.js'></script> -->
+    <script>
+        console.log(this);
+        class A {
+            run() {
+                console.log(this);
+
+            }
+        }
+        const a = new A()
+        a.run();
+
+        new A().run();
+
+    </script>
+</body>
